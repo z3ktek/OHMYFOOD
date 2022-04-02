@@ -1,0 +1,670 @@
+
+/* ALL */
+svg { 
+    width: 15px;
+}
+h3{
+    font-size: 28px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* HEADER */
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.boutton a p:hover{
+    margin: auto;
+}
+h4{
+    text-align: center;
+    font-size: 19px;
+    color: gray;
+}
+.localisation{
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+    border-top: solid 3px gray;
+}
+#loc{
+    margin-left: 10px;
+    font-size: 22px;
+    margin-top: 15px;
+}
+.logo{
+    width: 20%;
+    margin-left: 0px;
+}
+.encadre{
+    background-color: #F2F2F2;
+    height: 350px;
+}
+
+.boutton{
+    text-align: center;
+    border: solid #F2F2F2 2px;
+    width: 25%;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 50px;
+    height: 50px;
+    background: linear-gradient(45deg,#FF79DA 0%, #9356DC 100%);
+}
+.boutton p{
+    font-size: 19px;
+    margin-top: 7px;
+    color: white;
+}
+
+
+.boutton :hover{
+    background-color: #FF79DA;
+    border: solid white 2px;
+    border-radius: 30px;
+    height: 50px;
+    padding-top: 5px;
+    margin-top: -3px;
+}
+
+.boutton p :hover{
+    font-size: 19px;
+    color: white;
+    margin-top: 15px;
+}
+.boutton a{
+    text-decoration: none;
+    
+}
+
+
+/* NAV */
+span{
+    background-color: #9356DC;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    margin-top: 20px;
+    margin-left: -10px;
+    padding-bottom: 10px;
+    padding-left: 6px;
+    color: black;
+    font-weight: bold;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 250px;
+    margin-top: 50px;
+}
+.nav{
+    border: solid #F2F2F2 2px;
+    border-radius: 20px;
+    width: 120%;
+    margin: auto;
+    height: 60px;
+    box-shadow: 6px 6px 2px gainsboro;
+}
+.resto{
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: -13px;
+    margin-left: 60px;
+}
+.menu{
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: -25px;
+    
+}
+.eat{
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: -25px;
+    
+}
+.nav svg{
+    margin-left: 15px;
+    height: 22px;
+    margin-top: 20px;
+}
+
+
+.nav p{
+    margin-top: 15px;
+    margin-left: 30px;
+    color: black;
+}
+nav a{
+    text-decoration: none;
+}
+
+
+
+/* MAIN */
+
+
+article{
+    padding-top: 20px;
+    background-color: #F2F2F2;
+    height: 780px;
+    margin-top: -80px;
+}
+.card{
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.cadre_card{
+    width: 100%;
+    display: flex;
+    justify-content: space-around ;
+}
+#card_fail{
+    width: 30%;
+    margin-left: 150px;
+}
+#card_fail_2{
+    width: 150%;
+    margin-right: 150px;
+    MARGIN-LEFT: -290PX;
+}
+.cadre_card2{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around ;
+}
+
+
+.flex_card{
+    display: flex;
+}
+.txt_card{
+    width: 360px;
+    text-decoration: none;
+}
+.heart_opacity{
+    
+    color: #9356DC;
+    height: 40px;
+    WIDTH: 30px;
+    margin-top: -5px;
+    position: absolute;
+    opacity: 0;
+}
+.heart_opacity:hover{
+    opacity: 1;
+}
+.heart_card:onclic{
+    opacity: 1;
+}
+.heart_card{
+    margin-right: 10%;
+    margin-top: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+
+.heart_svg{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.photo{
+    width: 100%;
+    height: 170px;
+    border-radius: 15px 15px 0px 0px;
+}
+.card p{
+    margin-left: 15px;
+    font-size: 19px;
+}
+.p1{
+    margin-top: 5px;
+    font-weight: bold;
+}
+.p2{
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+
+/* FOOTER */
+h6{
+    font-size: 30px;
+    margin-top: -0px;
+    margin-left: 190px;
+    width: 70%;
+    font-family: Shrikhand;
+    color: white;
+    height: 0px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.flex_footer{
+    display: flex ;
+    flex-direction: row;
+}
+
+footer{
+    margin-top: 0px;
+}
+footer p {
+    color: white;
+}
+footer div a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon_footer{
+    width: 10%;
+    margin-top: 0px;
+}
+.txt_footer{
+    display: flex;
+    width: 30%;
+    height: 30px;
+    margin-left: -5px;
+}
+.txt_partenaire{
+    width: 100%;
+}
+.footer_mention{
+    width: 30%;
+    text-align: center;
+}
+.mail{
+    width: 30%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: grey;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 375px)
+{
+
+/* ALL */
+svg { 
+    width: 15px;
+}
+h3{
+    font-size: 28px;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* HEADER */
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h4{
+    text-align: center;
+    font-size: 19px;
+    color: gray;
+}
+.localisation{
+    display: flex;
+    background-color: gainsboro;
+    border-top: solid 3px gray;
+}
+#loc{
+    margin-left: 10px;
+    font-size: 22px;
+    margin-top: 15px;
+}
+.logo{
+    width: 60%;
+    margin-left: 0px;
+}
+.encadre{
+    background-color: #F2F2F2;
+    height: 350px;
+}
+
+.boutton{
+    text-align: center;
+    border: solid #F2F2F2 2px;
+    width: 70%;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 50px;
+    height: 50px;
+    background: linear-gradient(175deg,#FF79DA 0%, #9356DC 100%);
+}
+.boutton p{
+    font-size: 19px;
+    margin-top: 7px;
+    color: white;
+}
+
+
+.boutton :hover{
+    background-color: #FF79DA;
+    border: solid white 2px;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: -3px;
+}
+
+.boutton p :hover{
+    font-size: 19px;
+    color: white;
+    margin-top: 5px;
+}
+.boutton a{
+    text-decoration: none;
+    
+}
+
+/* NAV */
+span{
+    background-color: #9356DC;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    margin-top: 20px;
+    margin-left: -10px;
+    padding-bottom: 10px;
+    padding-left: 6px;
+    color: black;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 250px;
+    padding: 2%;
+    margin-top: 0px;
+}
+.nav{
+    border: solid #F2F2F2 2px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    width: 92%;
+    margin: auto;
+    height: 60px;
+    box-shadow: 6px 6px 2px gainsboro;
+}
+.resto{
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: -13px;
+    margin-left: 60px;
+}
+.menu{
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: -25px;
+    
+}
+.eat{
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: -25px;
+    
+}
+.nav svg{
+    margin-left: 15px;
+    height: 22px;
+    margin-top: 20px;
+}
+
+
+.nav p{
+    margin-top: 15px;
+    margin-left: 30px;
+    color: black;
+}
+nav a{
+    text-decoration: none;
+}
+
+
+/* MAIN */
+
+
+article{
+    padding-top: 20px;
+    background-color: #F2F2F2;
+    height: 1250px;
+    margin-top: 20px;
+}
+.card{
+    background-color: white;
+    width: 95%;
+    margin: auto;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.cadre_card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+}
+#card_fail{
+    width: 100%;
+    margin-left: 0px;
+}
+#card_fail_2{
+    width: 100%;
+    margin-right: 0px;
+    MARGIN-LEFT: 0PX;
+}
+.cadre_card2{
+    width: 94%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+    margin-top: 30px;
+}
+
+
+.flex_card{
+    display: flex;
+}
+.txt_card{
+    width: 180%;
+    text-decoration: none;
+}
+.heart_opacity{
+    
+    color: #9356DC;
+    height: 40px;
+    WIDTH: 30px;
+    margin-top: -5px;
+    position: absolute;
+    opacity: 0;
+}
+.heart_opacity:hover{
+    opacity: 1;
+}
+.heart_card:onclic{
+    opacity: 1;
+}
+.heart_card{
+    margin-right: 10%;
+    margin-top: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+#heart_fail{
+    width: 20%;
+    margin-left: 210px;
+}
+
+
+.heart_svg{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.photo{
+    width: 100%;
+    height: 170px;
+    border-radius: 15px 15px 0px 0px;
+}
+.card p{
+    margin-left: 15px;
+    font-size: 19px;
+}
+.p1{
+    margin-top: 5px;
+    font-weight: bold;
+}
+.p2{
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+
+
+
+/* FOOTER */
+h6{
+    font-size: 30px;
+    margin-top: -0px;
+    margin-left: 10px;
+    width: 70%;
+    font-family: Shrikhand;
+    color: white;
+    height: 0px;
+    margin-bottom: 40px;
+}
+.flex_footer{
+    display: flex ;
+    flex-direction: column;
+}
+
+
+footer{
+    margin-top: 0px;
+}
+footer p {
+    color: white;
+}
+footer div a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon_footer{
+    width: 10%;
+    margin-top: 0px;
+}
+.txt_footer{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    margin-left: -5px;
+}
+.txt_partenaire{
+    width: 80%;
+}
+.footer_mention{
+    width: 80%;
+    text-align: start;
+}
+.mail{
+    width: 30%;
+    text-align: start;
+    margin-top: 0px;
+}
+footer{
+    background-color: grey;
+    padding: 15px;
+}
+
+}
+
+
+
+h5{
+    font-size: 25px;
+    margin-left: 10px;
+    border-bottom: solid blue 2px;
+    width: 70px;
+}
+.number{
+    margin-top: 20px;
+    margin-left: -10px;
+}
+.logo_little{
+    width: 40%;
+}
+.img_header{
+    width: 100%;
+}
+.svg_translate{
+    background-color: #9356DC;
+}
+.bi{
+    color: #FF79DA;
+    position: relative;
+    
+}
+
+
+}
+
+
+
+
